@@ -6,6 +6,7 @@ Module 14 of Data Analytics Bootcamp
 
 The purpose of this analysis is to view some of the parameters of Citi Bike's business in New York that we believe may be useful for determining the success of starting a similar bike share program in Des Moines, Iowa. The data was taken from the month of August, as that was determined to be an optimal month for bike riding in general. Our analysis was completed using Tableau's visualization tools. 
 
+
 ## Results 
 #### Using the visualizations you have in your Tableau Story, describe the results of each visualization underneath the image.
 
@@ -30,9 +31,15 @@ The purpose of this analysis is to view some of the parameters of Citi Bike's bu
 ![Screen Shot 2022-04-06 at 11 49 12 PM](https://user-images.githubusercontent.com/96350388/162137928-456b8da5-af9a-44fe-b204-951dc2318ad6.png)
 - This map, despite being the ending locations instead of the starting locations, looks practically identical to the map with the starting locations. This does make sense when you consider that these bikes are usually picked up and dropped off from predetermined locations. Therefore, this map along with the starting points map show us that most of the travel on these bikes stays within the high density area of the city on the southwest portion of the map.
 
+
 ## Summary 
 #### Provide a high-level summary of the results and two additional visualizations that you would perform with the given dataset.
 
+Based on our findings from the visualizations above, it seems like there could be some good potential for success using a bike sharing program in Des Moines, Iowa. Some considerations for starting the program would be to incentivise people to subscribe to the system early and often, as our data suggests subscribers utilize the bikeshare service far more frequently than non-subscribers (which is great, because this suggests it's not all tourists using the bikes in New York). Additionally, it might be worth considering focusing on densely populated areas and putting bike stations relatively close together. This is because most of the data in New York came from very densely populated areas, and most trips were very short, suggesting that users were not traveling large distances between their starting point and ending point. 
+
+For future analysis, I would consider the following two additional vizualizations in order to better determine whether or not this investment will be a success in Des Moines, Iowa.
+- The amount of bikeshare users that are also car owners in NYC. It may be helpful to know if car owners are using bikeshare services, as I would suspect there are far more car owners per capita in Des Moines relative to NYC, which could cut out a significant portion of our potential users. 
+- It is also worth looking at bikeshare data in a colder month, such as Febraury, to see how frequently the bikes are used when the weather is far less ideal to ride a bike in. If bike usage significantly declines in the winter months, we may need to adjust our business strategy, as Iowa can get just as cold as New York, especially with the winds that the midwest can experience. 
 
 
 [link to dashboard](https://public.tableau.com/app/profile/michael.binger/viz/NYC_Citibike_Challenge_16493120565040/Story1?publish=yes)
